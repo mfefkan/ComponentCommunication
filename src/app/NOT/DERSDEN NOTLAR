@@ -1,0 +1,9 @@
+Biz eğer bir Parent Component'den Child Component'e bir veri göndereceksek Attribute ve Method'ları kullanarak gönderiyoruz.
+
+Eğer ki  Child'dan Parent'a gönderiyorsak Event'ler ile gönderiyoruz.
+
+
+Eğer bir child veri almak istiyorsa @Input() methodu ile bir property tanımladığında Parent bu propertye template içerisinde bir attribute olarak ulaşabiliyor. Parent kendi içinde göndermek istediği veriyi bu attribute'a bind ettiğinde bu property Input metodu sayesinde child tarafında da bind edilmiş oluyor.
+
+
+
